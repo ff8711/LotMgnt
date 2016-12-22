@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace LotteryMgnt
 {
-    public partial class Form1 : Form
+    public partial class ItemPrice : Form
     {
-        public Form1()
+        public ItemPrice()
         {
             InitializeComponent();
         }

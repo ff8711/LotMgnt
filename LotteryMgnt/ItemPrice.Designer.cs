@@ -1,6 +1,6 @@
 ﻿namespace LotteryMgnt
 {
-    partial class Form1
+    partial class ItemPrice
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ItemPrice
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(890, 487);
+            this.Name = "ItemPrice";
+            this.Text = "ItemPrice";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
